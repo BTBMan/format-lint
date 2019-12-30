@@ -1,4 +1,4 @@
-import rr from './a.js';
+import rr from './a';
 
 const r = require('./a.js');
 
