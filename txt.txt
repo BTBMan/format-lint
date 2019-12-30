@@ -1,0 +1,12 @@
+
+
+let a="sdfasdf"
+
+let b=[1,"sdf","343","dsgfds",  "sdfads"]
+
+b.map(item=>{
+console.log("item" ) ;
+
+
+     console.log(1)
+  })

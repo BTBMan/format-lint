@@ -1,0 +1,23 @@
+{
+  "name": "format-lint",
+  "version": "1.0.0",
+  "description": "eslint with prettier",
+  "main": "index.js",
+  "scripts": {
+    "eslint:fix": "eslint --fix . --no-ignore .eslintrc.js;exit 0",
+    "eslint:lint": "eslint . --no-ignore .eslintrc.js;exit 0"
+  },
+  "keywords": [],
+  "author": "王晓龙",
+  "license": "ISC",
+  "preview": true,
+  "repository": {},
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.8.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^1.19.1"
+  }
+}
