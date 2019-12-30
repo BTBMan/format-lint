@@ -6,7 +6,7 @@
     "scripts": {
         "eslint:fix": "eslint --fix . --no-ignore .eslintrc.js .huskyrc.js",
         "eslint:lint": "eslint . --no-ignore .eslintrc.js .huskyrc.js",
-        "format": "prettier --write --no-editorconfig --config-precedence file-override --loglevel silent \"{,!(node_modules)/**/}*\";exit 0"
+        "prettier": "prettier --write --no-editorconfig --config-precedence file-override --loglevel silent \"{,!(node_modules)/**/}*\";exit 0"
     },
     "keywords": [],
     "author": "王晓龙",
