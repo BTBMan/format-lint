@@ -1,5 +1,5 @@
 module.exports = {
-    printWidth: 500, // 文稿的最大宽度
+    printWidth: 100, // 文稿的最大宽度
     tabWidth: 4, // 标签缩进的宽度
     useTabs: false, // 是否使用制表符
     semi: true, // 是否在每个语句末尾添加分号

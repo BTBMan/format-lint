@@ -1,12 +1,11 @@
 
+const a = 'sdfasdf';
 
-let a="sdfasdf"
+const b = [1, 'sdf', '343', 'dsgfds', 'sdfads'];
 
-let b=[1,"sdf","343","dsgfds",  "sdfads"]
-
-b.map(item=>{
-console.log("item" ) ;
+b.map((item) => {
+  console.log('item');
 
 
-     console.log(1)
-  })
+  console.log(1);
+});

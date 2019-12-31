@@ -10,6 +10,29 @@ yarn-error.log*
 .env.local
 .env.*.local
 
+package-lock.json
+.git
+.prettierignore
+.eslintignore
+.gitignore
+*.json
+*.css
+*.scss
+*.sass
+*.less
+*.styl
+
+*.txt
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.svg
+*.ttf
+*.html
+*.ico
+
 # Editor directories and files
 .idea
 .vscode

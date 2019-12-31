@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "moduleResolution": "node",
+        "jsx": "preserve",
+        "allowJs": true,
+        "declaration": true,
+        "noEmit": true,
+        "strict": true,
+        "isolatedModules": false,
+        "esModuleInterop": false,
+        "noImplicitAny": false,
+        "strictNullChecks": false,
+        "experimentalDecorators": true
+    },
+    "include": ["**/*.ts", "**/*.tsx"]
+}

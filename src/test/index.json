@@ -1,12 +1,12 @@
 {
-    "name": "aepe-format-lint",
+    "name": "au-format-lint",
     "version": "1.0.0",
     "description": "eslint with prettier",
     "main": "index.js",
     "scripts": {
-        "eslint:check": "eslint '**'",
-        "eslint:fix": "eslint --fix '**'",
-        "prettier": "prettier --write --no-editorconfig --config-precedence file-override '**'"
+        "eslint:fix": "eslint --fix . --no-ignore .eslintrc.js .huskyrc.js package.json",
+        "eslint:lint": "eslint . --no-ignore .eslintrc.js .huskyrc.js",
+        "prettier": "prettier --write --no-editorconfig --config-precedence file-override '**/**'"
     },
     "keywords": [],
     "author": "王晓龙",
@@ -14,15 +14,12 @@
     "preview": true,
     "repository": {},
     "devDependencies": {
-        "@typescript-eslint/eslint-plugin": "^2.14.0",
-        "@typescript-eslint/parser": "^2.14.0",
         "eslint": "^6.8.0",
         "eslint-config-airbnb-base": "^14.0.0",
         "eslint-config-prettier": "^6.8.0",
         "eslint-plugin-import": "^2.19.1",
         "eslint-plugin-prettier": "^3.1.2",
         "husky": "^3.1.0",
-        "prettier": "^1.19.1",
-        "typescript": "^3.7.4"
+        "prettier": "^1.19.1"
     }
 }
